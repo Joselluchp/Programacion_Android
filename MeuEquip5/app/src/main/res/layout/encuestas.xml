@@ -20,7 +20,7 @@
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="actividad"
+            android:hint="@string/actividad"
             android:inputType="textPersonName"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
@@ -34,7 +34,7 @@
             android:id="@+id/editText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="numero_de_ni_os"
+            android:hint="@string/numero_de_ni_os"
             android:inputType="number"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="valoraci_n_del_educador"
+            android:text="@string/valoraci_n_del_educador"
             android:id="@+id/textView5"/>
 
         <RatingBar
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="dia_encuestado"
+            android:text="@string/dia_encuestado"
             android:id="@+id/textView3"
             android:layout_weight="7.76" />
 
@@ -80,7 +80,7 @@
             android:id="@+id/editText4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="comentarios"
+            android:hint="@string/comentarios"
             android:inputType="textPersonName"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1">
 
@@ -90,7 +90,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="guardar_encuesta"
+            android:text="@string/guardar_encuesta"
             android:id="@+id/button6"
             android:onClick="buttonClick"
             android:layout_marginBottom="69dp" />

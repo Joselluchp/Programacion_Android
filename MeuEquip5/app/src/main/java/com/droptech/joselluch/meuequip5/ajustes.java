@@ -10,17 +10,15 @@ import android.view.View;
  * Created by Jose Lluch on 24/11/2016.
  */
 
-public class ajustes extends PreferenceActivity {
+public class ajustes extends PreferenceActivity  {
 
+    @SuppressWarnings("deprecation")
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        /**
-         * fixme inicia mal el addPreferenceSource. Ver como es en Android 5.1
-         */
+    public void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferencias);
     }
-
 
     @Override
     public void onBackPressed() {

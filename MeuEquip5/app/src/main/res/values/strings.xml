@@ -51,9 +51,9 @@
     </string-array>
 
     <string name="nombreApp">meuEquip</string>
-    <string name="dia_encuestado">Dia encuestado</string>
+    <string name="dia_encuestado">Día encuestado</string>
     <string name="valoraci_n_del_educador">Valoración del Educador</string>
-    <string name="numero_de_ni_os">Numero de niños</string>
+    <string name="numero_de_ni_os">Número de niños</string>
     <string name="actividad">Actividad</string>
     <string name="comentarios">Comentarios</string>
     <string name="guardar_encuesta">Guardar Encuesta</string>

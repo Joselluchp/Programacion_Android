@@ -30,8 +30,12 @@ public class meuEquip extends AppCompatActivity {
 
     public void openAgradecimientos(final View view){startActivity(new Intent(this, agradecimientos.class ));}
 
-    public void openAjustes(final View view){ startActivity(new Intent(this, ajustes.class ));}
-
     public void openOpiniones(final View view){startActivity(new Intent(this, opiniones.class ));}
 
+    public void openAjustes(final View view){
+
+        Intent i = new Intent(this, ajustes.class );
+        startActivity(i);
+
+    }
 }

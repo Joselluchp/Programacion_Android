@@ -8,7 +8,6 @@
             android:summary="Etapa que llevas"
             android:entries="@array/Etapas"
             android:entryValues="@array/Etapas"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Recordatorios">
