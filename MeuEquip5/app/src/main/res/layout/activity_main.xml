@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="com.droptech.joselluch.meuequip5.meuEquip"
+    android:fillViewport="false"
+    app:layout_collapseParallaxMultiplier="0.9"
+    android:clipToPadding="false"
+    android:background="@drawable/fondocolores">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignWithParentIfMissing="false"
+            android:orientation="horizontal"
+            android:layout_gravity="top|center|left"
+            android:id="@+id/gridLayout"
+            android:layout_marginTop="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:layout_width="122dp"
+                android:layout_height="103dp"
+                android:id="@+id/imageEncuesta"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:onClick="openEncuestas"
+                android:background="@drawable/encuestaicono"
+                android:layout_gravity="center"
+                android:layout_margin="10dp" />
+
+            <ImageButton
+                android:layout_width="122dp"
+                android:layout_height="101dp"
+                android:id="@+id/imageAgradecimientos"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:onClick="openAgradecimientos"
+                android:background="@drawable/creditsicon"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:elevation="0dp" />
+
+            <ImageButton
+                android:layout_width="122dp"
+                android:layout_height="101dp"
+                android:id="@+id/imageComentarios"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:onClick="openOpiniones"
+                android:background="@drawable/comentsicon"
+                android:layout_gravity="center"
+                android:layout_margin="10dp" />
+
+            <ImageButton
+                android:layout_width="122dp"
+                android:layout_height="101dp"
+                android:id="@+id/imageAjustes"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:onClick="openAjustes"
+                android:background="@drawable/ajustesicono"
+                android:layout_gravity="center"
+                android:layout_margin="10dp" />
+
+        </GridLayout>
+
+    </RelativeLayout>
+</ScrollView>

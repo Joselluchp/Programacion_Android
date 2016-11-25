@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title = "Etapa">
+        <ListPreference
+            android:key = "etapaPref"
+            android:title="Etapa"
+            android:summary="Etapa que llevas"
+            android:entries="@array/Etapas"
+            android:entryValues="@array/Etapas"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Recordatorios">
+        <!--<ListPreference
+            android:key = "diaRecordPref"
+            android:title="Recordatorio actividad"
+            android:summary="Día para recordar la preparación de la actividad"
+            android:entries="@array/semana"
+            android:entryValues="@array/entrySemana"/>-->
+
+        <ListPreference
+            android:key = "diaJuniorPref"
+            android:title="Día Juniors"
+            android:summary="Día en que vamos al Juniors"
+            android:entries="@array/semana"
+            android:entryValues="@array/entrySemana"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title = "Verificación de conexión">
+        <EditTextPreference
+            android:key = "contraPref"
+            android:title="Contraseña"
+            android:summary="Clave verificación y seguridad en internet"
+            android:dialogTitle="Contraseña super secreta"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

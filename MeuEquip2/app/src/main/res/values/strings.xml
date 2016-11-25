@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">meuEquip</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_configurar_ajustes">Ajustes</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_items_list">Items</string>
+    <string name="title_items_detail">Items Detail</string>
+    <string name="title_activity_encuestas">encuestas</string>
+    <string name="dia_recordatorio_para_actividad_del_s_bado">Dia recordatorio para actividad del Sábado</string>
+    <string name="d_a_del_juniors">Día del Juniors</string>
+    <string name="semana" />
+
+    <string-array name="semana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+        <item>No quiero que me recuerdes esto</item>
+        <item>El próximo curso</item>
+    </string-array>
+
+    <string-array name="entrySemana">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>1</item>
+        <item>-2</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="Etapas">
+        <item>Comunión</item>
+        <item>Pacto</item>
+        <item>Identidad I</item>
+        <item>Identidad II</item>
+        <item>Experiencia I</item>
+        <item>Experiencia II</item>
+        <item>Estilo de Vida</item>
+        <item>Todo el Centro</item>
+    </string-array>
+
+    <string-array name="Etapas2">
+        <item>Comunión</item>
+        <item>Pacto</item>
+        <item>Identidad I</item>
+        <item>Identidad II</item>
+        <item>Experiencia I</item>
+        <item>Experiencia II</item>
+        <item>Estilo de Vida</item>
+        <item>Todo el Centro</item>
+    </string-array>
+
+    <string name="nombreApp">meuEquip</string>
+
+    <!-- Menu de Opciones (ActionBar) del main Activity (ventana ppal) -->
+    <string name="main_menu_Ajustes1">Ya Pensare una opcion</string>
+    <string name="main_menu_Ajustes2">Compartir</string>
+    <string name="main_menu_Ajustes3">Contactar con I+D</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_inicio">meuEquip</string>
+    <string name="dia_encuestado">Dia encuestado</string>
+    <string name="valoraci_n_del_educador">Valoración del Educador</string>
+    <string name="numero_de_ni_os">Numero de niños</string>
+    <string name="actividad">Actividad</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="guardar_encuesta">Guardar Encuesta</string>
+</resources>

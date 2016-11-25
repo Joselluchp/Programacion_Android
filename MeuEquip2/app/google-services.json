@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "585896001696",
+    "firebase_url": "https://meuequip2.firebaseio.com",
+    "project_id": "meuequip2",
+    "storage_bucket": "meuequip2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585896001696:android:b67b1ad4307e3b42",
+        "android_client_info": {
+          "package_name": "com.droptech.joselluch.meuequip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585896001696-mc47sgb98qgsbcfc5n06qijkf6ncqlre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.droptech.joselluch.meuequip",
+            "certificate_hash": "8795BAAC04CCD558AE67944E017840616985EFF3"
+          }
+        },
+        {
+          "client_id": "585896001696-g47srdcupgql5ovu6hdulkmk0rlltqhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMKya95CL2KsUR_j5-aoobuc-_djYzixM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585896001696-g47srdcupgql5ovu6hdulkmk0rlltqhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
